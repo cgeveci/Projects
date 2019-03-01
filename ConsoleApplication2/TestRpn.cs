@@ -37,7 +37,7 @@ namespace ConsoleApplication2
         {
             string rpnExp = "2,3,^";
             RPNCalculator calc = new RPNCalculator();
-
+               
             Assert.AreEqual(9, calc.CalculateRPN(rpnExp));
         }
 
