@@ -23,6 +23,7 @@ namespace ConsoleApplication2
             //Assert.Throws(InvalidOperationException, new TestDelegate());
         }
 
+        // Calculates the minus operation between two number
         [Test]
         public void SimpleRPNOperationWithDecimal()
         {
